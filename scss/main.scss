@@ -1,8 +1,12 @@
+// VARIABLES
+$brand_color1: rgb(79,56,46);
+
 .navbar {
-  background-color: none;
   text-transform: uppercase;
+  width: 100%;
   li > a {
     color: white;
+    font-weight: 100;
   }
   img {
     width: 150px;
@@ -35,6 +39,86 @@
   }
 }
 
+#shop-smart {
+  img {
+    max-width: 125px;
+    
+    &.square {
+      max-width: 350px;
+      max-height: 250px;
+    }
+  }
+  
+  color: $brand_color1;
+  h4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+#brands {
+  background: linear-gradient(
+    rgba(79, 56, 46, 0.5),
+    rgba(79, 56, 46, 0.5)
+    ),
+    url('/images/horse-focus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  img {
+    width: 250px;
+  }
+}
+
+#how-it-works {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#blog {
+  color: $brand_color1;
+  img {
+    width: 100%;
+    height: 350px;
+  }
+  h4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+#footer {
+  background-color: $brand_color1;
+  color: white;
+  .app-store-img {
+    width: 140px;
+    margin-top: 10px;
+  }
+  .phone-footer {
+    width: 125px;
+  }
+  .list-group {
+    a {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 200;
+      padding: 20px 10px;
+    }
+  }
+  i {
+    padding: 0 2rem;
+  }
+}
+
+
+/*****************************************
+              Utilities
+*****************************************/
 .no-gutters {
   margin-left: 0;
   margin-right: 0;
@@ -44,4 +128,9 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+img.logo {
+  width: 350px;
+  height: auto;
 }
