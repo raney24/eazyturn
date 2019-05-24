@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+.btn {
+    color: white;
+    background-color: $brand-color1;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.btn-light {
+    color: $brand-color1;
+    border-radius: 0;
+    text-transform: uppercase;
+    background-color: white;
+    border-color: transparent;
+}
+
+.heading-area {
+    text-transform: uppercase;
+    &.lower-case {
+        text-transform: none;
+    }
+    &.white-heading {
+        background-color: $brand-color1;
+        color: white;
+    }
+}
+
+.relative-pos {
+    position: relative;
+}

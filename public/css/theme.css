@@ -1,0 +1,24 @@
+.btn {
+  color: white;
+  background-color: #40B086;
+  border-radius: 0;
+  text-transform: uppercase; }
+
+.btn-light {
+  color: #40B086;
+  border-radius: 0;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: transparent; }
+
+.heading-area {
+  text-transform: uppercase; }
+  .heading-area.lower-case {
+    text-transform: none; }
+  .heading-area.white-heading {
+    background-color: #40B086;
+    color: white; }
+
+.relative-pos {
+  position: relative; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3Njc3MvdGhlbWUuc2NzcyIsIi4uLy4uL3Njc3MvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSxZQUFZO0VBQ1oseUJDSGtCO0VESWxCLGdCQUFnQjtFQUNoQix5QkFBeUIsRUFBQTs7QUFFN0I7RUFDSSxjQ1JrQjtFRFNsQixnQkFBZ0I7RUFDaEIseUJBQXlCO0VBQ3pCLHVCQUF1QjtFQUN2Qix5QkFBeUIsRUFBQTs7QUFHN0I7RUFDSSx5QkFBeUIsRUFBQTtFQUQ3QjtJQUdRLG9CQUFvQixFQUFBO0VBSDVCO0lBTVEseUJDckJjO0lEc0JkLFlBQVksRUFBQTs7QUFJcEI7RUFDSSxrQkFBa0IsRUFBQSIsImZpbGUiOiJ0aGVtZS5jc3MifQ== */
