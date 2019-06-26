@@ -1,3 +1,6 @@
+## To view homepage
+Visit https://raney24.github.io/eazyturn/public/index.html
+
 ## To run server
 1. node web-server/app.js
 
